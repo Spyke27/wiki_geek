@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e3e3e3;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 50px;
+    background-color: #111111;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #333333;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.fundo{
+    display: flex;
+    width: 100%;
+}
+.capa {
+    height: 250px;
+    background-color: #11111167;
+    width: 100%;
+}
+.titulo{
+    margin-top: 80px;
+    position: absolute;
+    z-index: 890;
+    margin-top: 80px;
+}
+h1{
+    font-size: 40px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+}
+h2{
+    margin-top: 5px;
+    font-size: 17px;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+}
+.capa img{
+    height: 250px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    background-color: #e3e3e3;
+    position: absolute;
+    margin-top: 200px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #111111;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+}
+.logo{
+    height: 40px;
+    width: auto;
+    margin-left: 30px;
+    display: flex;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.logo b{
+    color: red;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.pesquisar{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background-color: #f6f6f6;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.pesquisar img{
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.pesquisar input{
+    height: 29.5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: solid 3px #333333;
+    width: 165px;
+    border-right: none;
+    font-size: 14px;
+
+}
+.pesquisar input:hover{
+    border: solid 2px #059862;
+}
+input::placeholder {
+    padding: 15px;
+}
+.opcoes{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    margin-left: -300px;
+}
+.opcoes a{
+    text-decoration: none;
+}
+.opc{
+    width: 50px;
+    height: 41px;
+    background-color: #4D4D4D;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #e3e3e3;
+    margin-right: 1px;
+}
+.animes{
+    border-bottom: 3px solid #864688;
+}
+.opc:hover{
+    background-color: #606060;
+    color: #ffffff;
+}
+.series{
+    border-bottom: 3px solid #4CB5AB;
+}
+.filmes{
+    border-bottom: 3px solid #F34336;
+}
+.games{
+    border-bottom: 3px solid #FABF2D;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.card h2{
+    font-size: 23px;
+    color: #404040;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+.bar{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    border-radius: 1px;
+    margin-bottom: 12px;
+}
+.card h3{
+    font-size: 14px;
+    color: #404040;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.card img{
+    width: 600px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.card p{
+    font-size: 16px;
+    color: #404040;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+    width: 600px;
+}
+.info{
+    display: flex;
+}
+.info p{
+    width: 300px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.informacoes{
+    font-synthesis: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.lateral{
+    display: flex;
+    flex-direction: column;
+}
+.ads{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-radius: 3px;
+    background-color: #aeaeae;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 200px;
+    color: #2e2e2e;
+}
+.ads img{
+    height: 50px;
+    width: 50px;
+    background-color: #aeaeae;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #111111;
+}
