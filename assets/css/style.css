@@ -65,13 +65,22 @@ h2{
     flex-wrap: wrap;
     width: 1100px;
     background-color: #e3e3e3;
-    position: absolute;
-    margin-top: 200px;
+    position:static;
+    margin-top: -50px;
     border-radius: 12px;
     box-shadow: 1px 1px 10px #111111;
     margin-left: 80px;
     margin-right: 80px;
-    padding-top: 50px;
+    padding-top: 10px;
+}
+.spoiler{
+    font-size: 17px;
+    color: rgb(95, 95, 1);
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.spoiler b{
+    color: rgb(186, 34, 34);
 }
 .logo{
     height: 40px;
@@ -219,7 +228,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 400px;
+    height: 360px;
     border-radius: 3px;
     background-color: #aeaeae;
     align-items: center;
@@ -238,5 +247,5 @@ input::placeholder {
 footer{
     height: 200px;
     width: 100%;
-    background-color: #111111;
+    background-color: #333333;
 }
