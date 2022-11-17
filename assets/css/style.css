@@ -8,6 +8,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+strong{
+    font-size: 15px;
+}
 .head{
     height: 50px;
     background-color: #111111;
@@ -100,28 +103,28 @@ h2{
 .pesquisar{
     height: 30px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 200px;
-    background-color: #f6f6f6;
     margin-right: 30px;
     border-radius: 5px;
 }
 .pesquisar img{
-    margin-right: 5px;
     height: 30px;
     width: 30px;
     cursor: pointer;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .pesquisar input{
     height: 29.5px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border: solid 3px #333333;
-    width: 165px;
+    width: 150px;
     border-right: none;
     font-size: 14px;
-
+    background-color: white;
 }
 .pesquisar input:hover{
     border: solid 2px #059862;
@@ -175,6 +178,7 @@ input::placeholder {
     justify-content: center;
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 50px;
 }
 .card h2{
     font-size: 23px;
@@ -203,9 +207,10 @@ input::placeholder {
 .card p{
     font-size: 16px;
     color: #404040;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 50px;
+    font-family: Verdana;
+    margin-bottom: 20px;
     width: 600px;
+    line-height: 25px;
 }
 .info{
     display: flex;
@@ -214,35 +219,16 @@ input::placeholder {
     width: 300px;
     margin-left: 30px;
     font-size: 14px;
+    line-height: 16px;
 }
 .informacoes{
-    font-synthesis: 17px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: bold;
 }
 .lateral{
     display: flex;
     flex-direction: column;
-}
-.ads{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 360px;
-    border-radius: 3px;
-    background-color: #aeaeae;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    position: absolute;
-    margin-top: 200px;
-    color: #2e2e2e;
-}
-.ads img{
-    height: 50px;
-    width: 50px;
-    background-color: #aeaeae;
 }
 footer{
     display: flex;
@@ -252,6 +238,7 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+/* Botão voltar para o topo */
 .voltar{
     display: flex;
     align-items: center;
@@ -265,6 +252,7 @@ footer{
     height: 50px;
     width: 50px;
     cursor: pointer;
+    border: none;
 }
 .contatos{
     display: flex;
