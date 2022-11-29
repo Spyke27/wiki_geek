@@ -20,3 +20,5 @@ Feito sob os padrões do FlexBox em CSS, afim  de praticar conceitos básicos de
  <hr>
  <img src="https://i.imgur.com/4mW6npU.png" alt="print2">
  <hr>
+
+ Obs: Não está responsivo em dispositivos móveis!
