@@ -17,5 +17,6 @@ Feito sob os padrões do FlexBox em CSS, afim  de praticar conceitos básicos de
 
  ## Resultado 💻
  <img src="https://i.imgur.com/cfonV3L.png" alt="print">
+ <hr>
  <img src="https://i.imgur.com/4mW6npU.png" alt="print2">
  <hr>
