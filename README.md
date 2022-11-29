@@ -16,6 +16,6 @@ Feito sob os padrões do FlexBox em CSS, afim  de praticar conceitos básicos de
  🔰 Link: https://wikinanatsu.netlify.app
 
  ## Resultado 💻
- <img src="https://i.imgur.com/hvXXZtM.png" alt="print">
- <img src="https://i.imgur.com/NFybeu7.png" alt="print2">
+ <img src="https://i.imgur.com/cfonV3L.png" alt="print">
+ <img src="https://i.imgur.com/4mW6npU.png" alt="print2">
  <hr>
