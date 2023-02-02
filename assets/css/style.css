@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
 }
-html{
-    scroll-behavior: smooth;
-}
 body{
     background-color: #e3e3e3;
+    height: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -68,6 +66,7 @@ h2{
 .container{
     display: flex;
     flex-wrap: wrap;
+    width: 1100px;
     background-color: #e3e3e3;
     position:static;
     margin-top: -50px;
@@ -181,11 +180,11 @@ input::placeholder {
     margin-right: 80px;
     margin-bottom: 50px;
 }
-.card h2{
+.nome h2{
     font-size: 23px;
-    color: #404040;
     text-transform: uppercase;
     margin-left: 0px;
+    
 }
 .bar{
     width: 80px;
@@ -241,6 +240,26 @@ footer{
     align-items: center;
 }
 
+/* Botão voltar para o topo */
+.voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: -25px;
+    position: static;
+    z-index: 99;
+    margin-left: 90%;
+    background-color: rgb(23, 142, 174);
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+}
+.voltar img{
+    animation: seta infinite 2s ease-in-out;
+}
+
 .contatos{
     display: flex;
     flex-direction: column;
@@ -261,9 +280,10 @@ footer{
     font-size: 12px;
     color: #e3e3e3;
     margin-top: 50px;
+    margin-bottom: -50px;
 }
 .container h2{
-    color: #000000;
+    color: #1e1e1e;
     text-transform: uppercase;
 }
 .sobre{
@@ -287,25 +307,7 @@ footer{
     background-color: #45595f;
     margin-bottom: 20px;
 }
-/* Botão voltar para o topo */
-.voltar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    margin-bottom: -25px;
-    position: static;
-    z-index: 99;
-    margin-left: 90%;
-    background-color: rgb(23, 142, 174);
-    height: 60px;
-    width: 60px;
-    cursor: pointer;
-    border: none;
-}
-.voltar img{
-    animation: seta infinite 2s ease-in-out;
-}
+
 
 @keyframes seta {
     0%{
