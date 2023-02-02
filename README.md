@@ -13,7 +13,7 @@ Feito sob os padrões do FlexBox em CSS, afim  de praticar conceitos básicos de
 
  ## Projeto rodando:
 
- 🔰 Link: https://wikinanatsu.netlify.app
+ 🔰 Link: <a href="https://wikinanatsu.netlify.app">www.wiki_geek.com.br</a>
 
  ## Resultado 💻
  <img src="https://i.imgur.com/cfonV3L.png" alt="print">
