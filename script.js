@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 btn.addEventListener("click", function() {
     window.scrollTo(0, 0);
-    behavior: "smooth"
+    "smooth"
 });
