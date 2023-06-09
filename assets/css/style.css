@@ -8,6 +8,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+html {
+    scroll-behavior: smooth;
+  }
 strong{
     font-size: 15px;
 }
