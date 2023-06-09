@@ -1,5 +1,6 @@
 let btn = document.querySelector('.voltar');
 let widthScreen = window.screen.width;
+alert("Está página ainda não foi adaptada para dispositivos móveis");
 
 if (widthScreen < 1220){
     alert("Está página ainda não foi adaptada para dispositivos móveis");
